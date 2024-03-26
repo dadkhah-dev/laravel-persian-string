@@ -1,5 +1,5 @@
 {
-    "name": "pishran/laravel-persian-string",
+    "name": "dadkhah-dev/laravel-persian-string",
     "description": "Convert Arabic/English/etc numbers and characters to Persian numbers and characters in Laravel models.",
     "keywords": [
         "laravel",
@@ -17,9 +17,9 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
-        "illuminate/support": "^5.6|^5.7|^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
-        "pishran/persian-string": "^1.1"
+        "php": "^8.2",
+        "illuminate/support": "^9|^10|^11",
+        "dadkhah-dev/persian-string": "^1.1"
     },
     "autoload": {
         "psr-4": {
