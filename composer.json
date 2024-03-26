@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pishran\\LaravelPersianString\\": "src"
+            "DadkhahDev\\LaravelPersianString\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pishran\\LaravelPersianString\\ServiceProvider"
+                "DadkhahDev\\LaravelPersianString\\ServiceProvider"
             ]
         }
     }
