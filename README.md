@@ -5,7 +5,7 @@
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Pishran\LaravelPersianString\HasPersianString;
+use DadkhahDev\LaravelPersianString\HasPersianString;
 
 class Post extends Model
 {
@@ -23,13 +23,13 @@ class Post extends Model
 
 برای نصب و استفاده از این پکیج می توانید از کمپوسر استفاده کنید:
 
-`composer require pishran/laravel-persian-string`
+`composer require dadkhah-dev/laravel-persian-string`
 
 ## پیکربندی
 
 انتشار فایل پیکربندی:
 
-`php artisan vendor:publish --provider="Pishran\LaravelPersianString\ServiceProvider"`
+`php artisan vendor:publish --provider="DadkhahDev\LaravelPersianString\ServiceProvider"`
 
 جهت شخصی سازی قوانین تبدیل، فایل پیکربندی را ویرایش کنید:
 
